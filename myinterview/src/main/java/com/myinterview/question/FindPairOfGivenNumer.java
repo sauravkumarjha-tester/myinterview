@@ -8,7 +8,7 @@ public class FindPairOfGivenNumer {
         int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         int sum = 11;
 
-        pairOfGivensum(arr, sum);    
+        pairOfGivensum(arr, sum);   
         // findPairsOfSum(arr, sum);
     }
 
