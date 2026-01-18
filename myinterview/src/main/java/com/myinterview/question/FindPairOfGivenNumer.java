@@ -6,9 +6,20 @@ public class FindPairOfGivenNumer {
     public static void main(String[] args) {
         System.out.println("Find pair of given sum in java array");
         int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-        int sum = 10;
+        int sum = 11;
 
+        pairOfGivensum(arr, sum);    
         // findPairsOfSum(arr, sum);
+    }
+
+    public static void pairOfGivensum(int[] array, int sum){
+        for(int i = -0; i < array.length; i++){
+            for(int j = i; j < array.length; j++){
+                if(array[i] + array[j] == sum){
+                    System.out.println("Pairs found: " + array[i] + " " + array[j]);
+                }
+            }
+        }
     }
     
 
