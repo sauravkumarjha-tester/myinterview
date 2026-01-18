@@ -1,7 +1,7 @@
 package com.myinterview.question;
 
 public class FindNonRepetableCharacter {
-    // Find first non-repetable character without using any collection framework 
+    // Find  non-repetable character without using any collection framework 
     public static void main(String[] args) {
         String str = "aabcdeefggi";
         char[] charr = str.toCharArray();
